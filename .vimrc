@@ -54,3 +54,5 @@ set modeline
 
 filetype indent on
 set autoindent
+
+map ; :

@@ -1,4 +1,5 @@
 # tool
+less -s turn off line wrap
 grep -A 3 -B 2
 grep -nr        show grep line number
 *apropos*       search man
@@ -27,6 +28,7 @@ kernel param : verbose debug
 fsck for check linux file system
 
 # network
+post-up, pre-down in `/etc/network/interfaces`
 ethtool check eth status
 raw_socket, bindtodevice
 traceroute

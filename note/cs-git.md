@@ -21,3 +21,6 @@ G = A^^^ = A^1^1^1 = A~3
 H = D^2  = B^^2    = A^^^2  = A~2^2
 I = F^   = B^3^    = A^^3^
 J = F^2  = B^3^2   = A^^3^2
+
+# git list file
+git ls-tree --full-tree -r HEAD 
