@@ -1,7 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =5
-let g:netrw_dirhist_1='/usr/share/modules'
-let g:netrw_dirhist_2='/home/cjld/summer_project/armcpu/armcpu/prog/mult'
-let g:netrw_dirhist_3='/tmp/thuco-ram-flash-test'
-let g:netrw_dirhist_4='/home/cjld/utils'
-let g:netrw_dirhist_5='/var/log'

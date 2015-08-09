@@ -1,3 +1,8 @@
+# git-dir and worktree
+git --git-dir=xxx --work-tre=xxx
+# git rm index
+git rm -r --cached
+--cached for removing index only
 # explanation of HEAD^ and HEAD~
 
     G   H   I   J
