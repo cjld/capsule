@@ -93,3 +93,4 @@ function dcl {
 function help {
     bash -c "help $1"
 }
+alias gcn="git commit -a -m 'nothing to say'"

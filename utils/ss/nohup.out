@@ -820,3 +820,4 @@ INFO: loading config from config.json
 2015-08-10 16:10:43 INFO     connecting web.archive.org:443 from 127.0.0.1:60628
 2015-08-10 16:19:27 INFO     connecting plus.google.com:443 from 127.0.0.1:60630
 2015-08-10 16:19:33 INFO     connecting csi.gstatic.com:443 from 127.0.0.1:60632
+2015-08-10 16:24:14 INFO     connecting plus.google.com:443 from 127.0.0.1:60637
