@@ -3,5 +3,6 @@
 	name = Dun Liang
 [core]
 	editor = vim
+	fileMode = true
 [push]
 	default = simple

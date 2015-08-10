@@ -1,3 +1,5 @@
+# ssh centos key not work
+set ~/.ssh/authorized_keys to 600
 # windows flashing
 ccsm -> workarouds -> force full screen redraw
 # log in loop
