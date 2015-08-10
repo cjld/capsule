@@ -3,3 +3,5 @@ autojump
 tree
 vundle
 dconf-editor
+moreutils
+tsocks

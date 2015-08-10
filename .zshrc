@@ -50,7 +50,7 @@ export HISTSIZE=""
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(cp git colored-man extract web-search autojump)
+plugins=(cp git colored-man extract web-search autojump catimg)
 
 # User configuration
 
@@ -84,3 +84,12 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+
+function dcl {
+    sdcv $1 | less
+}
+
+function help {
+    bash -c "help $1"
+}

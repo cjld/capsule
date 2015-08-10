@@ -1,4 +1,8 @@
+# GUI
+dconf dump to see setting
+
 # tool
+curl -L for relocation -v for verbose
 less -s turn off line wrap
 grep -A 3 -B 2
 grep -nr        show grep line number

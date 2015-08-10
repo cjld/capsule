@@ -1,1 +1,1 @@
-git --git-dir=.git --work-tree=../ pull origin master
+git --git-dir=.git pull origin master
