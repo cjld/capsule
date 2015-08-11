@@ -8,4 +8,4 @@ git config core.worktree ../../
 git reset --hard HEAD
 
 ~/utils/package/install_all.sh
-
+sudo chsh $USER -s $(which zsh)

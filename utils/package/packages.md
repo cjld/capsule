@@ -1,7 +1,8 @@
-clip
+zsh
+vim
+xclip
 autojump
 tree
-vundle
 dconf-editor
 moreutils
 tsocks
