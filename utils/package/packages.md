@@ -5,3 +5,4 @@ vundle
 dconf-editor
 moreutils
 tsocks
+sshfs

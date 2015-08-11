@@ -1,3 +1,5 @@
+# autojump in centos
+autojump need install zsh extension
 # ssh centos key not work
 set ~/.ssh/authorized_keys to 600
 # windows flashing

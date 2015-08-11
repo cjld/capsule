@@ -52,7 +52,7 @@ set nocompatible
 filetype plugin on
 set modeline 
 
-filetype indent on
-set autoindent
+"    filetype indent on
+" set autoindent
 
 map ; :
