@@ -1,5 +1,7 @@
 # cheatsheel of vim
 
+% for jump match braces
+
 ^X^N for in file complete
 ^N only
 
