@@ -7,3 +7,4 @@ dconf-editor
 moreutils
 tsocks
 sshfs
+zsh

@@ -1,4 +1,4 @@
-# sh -c "$(curl -fsSL https://raw.githubusercontent.com/cjld/capsule/master/utils/deploy.sh)"
+# sh -x -c "$(curl -fsSL https://raw.githubusercontent.com/cjld/capsule/master/utils/deploy.sh)"
 set -e
 cd ~
 git clone --no-checkout https://github.com/cjld/capsule.git

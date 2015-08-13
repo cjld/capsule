@@ -9,3 +9,4 @@
     tabLength: 4
     showInvisibles: true
     showIndentGuide: true
+  minimap: {}
