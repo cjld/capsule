@@ -1,7 +1,7 @@
 {
    "server":"2604:a880:1:20::19:d001",
    "server_port":8087,
-   "local_address": ["0.0.0.0", "[::0]"],
+   "local_address":"0.0.0.0",
    "local_port":8086,
    "password":"5414.5drdps",
    "timeout":600,
