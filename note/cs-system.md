@@ -1,3 +1,6 @@
+# system
+/etc/sysctl.conf
+sysctl -p
 # GUI
 dconf dump to see setting
 
