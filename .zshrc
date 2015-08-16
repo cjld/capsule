@@ -146,3 +146,7 @@ zstyle ':completion:*:options' auto-description '%d'
 zstyle ':completion:*:descriptions' format $'\e[01;33m -- %d --\e[0m'
 zstyle ':completion:*:messages' format $'\e[01;35m -- %d --\e[0m'
 zstyle ':completion:*:warnings' format $'\e[01;31m -- No Matches Found --\e[0m'
+
+if which cowsay &>/dev/null; then
+    cowsay -e '><' "Hello, $USER"
+fi

@@ -1,10 +1,13 @@
 # system
 /etc/sysctl.conf
 sysctl -p
+dmesg -wH           show kernel log in real time
+
 # GUI
 dconf dump to see setting
 
 # tool
+tail -n 3 -f mylog      get last 3 lines in file mylog and keep tracking the output
 curl -L for relocation -v for verbose
 less -s turn off line wrap
 grep -A 3 -B 2
@@ -15,6 +18,7 @@ grep -nr        show grep line number
 *iotop*
 *file*          check file type
 *sed -i*        sed the file
+*sed 's///p'*   sed print match
 *man -k*        search whole man pages
 
 # mantain
