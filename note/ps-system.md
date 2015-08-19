@@ -1,3 +1,5 @@
+# ssh key not work
+openwrt not using openssh-server
 # linux ephemeral port
 linux will close the ephemeral port for a while, kernel com opt 
 `net.ipv4.tcp_tw_reuse` can manipulate it.

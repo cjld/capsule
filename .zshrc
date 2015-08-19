@@ -150,3 +150,5 @@ zstyle ':completion:*:warnings' format $'\e[01;31m -- No Matches Found --\e[0m'
 if which cowsay &>/dev/null; then
     cowsay -e '><' "Hello, $USER"
 fi
+
+export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'

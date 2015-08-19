@@ -39,6 +39,7 @@ kernel param : verbose debug
 fsck for check linux file system
 
 # network
+dig -x      for reverse DNS +trace for trace DNS
 post-up, pre-down in `/etc/network/interfaces`
 ethtool check eth status
 raw_socket, bindtodevice
