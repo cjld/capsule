@@ -8,3 +8,4 @@ qsub
 rtop <https://linuxtoy.org/archives/rtop.html>
 linux network tap
 http://linux.vbird.org/linux_server/0350dns.php
+http://zhangliliang.com/2014/11/28/paper-note-fcn-segment/

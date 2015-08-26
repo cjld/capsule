@@ -1,3 +1,5 @@
+# "device or resource busy".
+lsof and umount
 # ssh key not work
 openwrt not using openssh-server
 # linux ephemeral port

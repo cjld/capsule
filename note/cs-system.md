@@ -1,3 +1,8 @@
+# stat
+vmstat
+dstat
+iostat      from sysstat package
+
 # system
 /etc/sysctl.conf
 sysctl -p
@@ -5,10 +10,12 @@ dmesg -wH           show kernel log in real time
 
 # GUI
 dconf dump to see setting
+xdg-open        open file with type
 
 # tool
+mkfifo          make a pipe
 tail -n 3 -f mylog      get last 3 lines in file mylog and keep tracking the output
-curl -L for relocation -v for verbose
+curl -L for relocation -v for verbose -O for save with url's base name
 less -s turn off line wrap
 grep -A 3 -B 2
 grep -nr        show grep line number
