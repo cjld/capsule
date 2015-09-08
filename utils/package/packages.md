@@ -9,3 +9,4 @@ tsocks
 sshfs
 zsh
 tmux
+inotyfy-tool

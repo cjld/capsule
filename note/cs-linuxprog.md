@@ -7,3 +7,11 @@
     getsockopt(fd, SOL_IPV6, IP6T_SO_ORIGINAL_DST, destaddr, &socklen);
     getsockopt(fd, SOL_IP, SO_ORIGINAL_DST, destaddr, &socklen);
 ```
+
+# disassamble
+objdump -l          dump debug line number info
+objdump -I DIR      objdump dir find
+
+# software
+dissy
+

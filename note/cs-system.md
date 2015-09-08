@@ -13,6 +13,9 @@ dconf dump to see setting
 xdg-open        open file with type
 
 # tool
+htop   press Ht      t for tree view, H show threads
+ps -eLf         ps show threads
+strings         find string in binary
 mkfifo          make a pipe
 tail -n 3 -f mylog      get last 3 lines in file mylog and keep tracking the output
 curl -L for relocation -v for verbose -O for save with url's base name
