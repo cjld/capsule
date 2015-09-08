@@ -8,3 +8,4 @@ moreutils
 tsocks
 sshfs
 zsh
+tmux

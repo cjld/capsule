@@ -27,3 +27,6 @@ ccsm -> workarouds -> force full screen redraw
 # no icon
 reset dconf, rm ~/.config/dconf/user
 
+# lightdm auto loggin
+/etc/lightdm/lightdm.conf  
+comment autologin-user
