@@ -1,3 +1,6 @@
+# sshfs hang
+sshfs -o reconnect
+<http://unix.stackexchange.com/questions/14143/what-is-a-better-way-to-deal-with-server-disconnects-of-sshfs-mounts>
 # "device or resource busy".
 lsof and umount
 # ssh key not work
@@ -27,3 +30,5 @@ ccsm -> workarouds -> force full screen redraw
 # no icon
 reset dconf, rm ~/.config/dconf/user
 
+# unable to correct problems 
+sudo apt-get dist-upgrade
