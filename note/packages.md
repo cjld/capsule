@@ -4,3 +4,4 @@ tree
 vundle
 dconf-editor
 linux-tools-generic
+conky

@@ -1,3 +1,6 @@
+# login loop
+~/.Xauthority permission denied
+
 # sshfs hang
 sshfs -o reconnect
 <http://unix.stackexchange.com/questions/14143/what-is-a-better-way-to-deal-with-server-disconnects-of-sshfs-mounts>

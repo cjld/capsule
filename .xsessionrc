@@ -1,0 +1,3 @@
+if [ -r /usr/bin/xbacklight ]; then
+    /usr/bin/xbacklight -set 30 -steps 1
+fi
