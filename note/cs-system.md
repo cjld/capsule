@@ -45,7 +45,7 @@ xrandr `xrandr --output LVDS-0 --brightness 1`
 xbacklight
 
 # boot
-kernel param : verbose debug
+kernel param : verbose debug  single(for single mode)
 fsck for check linux file system
 
 # network
@@ -70,3 +70,5 @@ dropwatch
 
 # sudo
 pam
+
+<http://www.cyberciti.biz/hardware/collecting-ubuntu-linux-system-information/>
