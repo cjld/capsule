@@ -1,3 +1,9 @@
+# LMDB problem
+If you're on Linux, you need to set /proc/sys/vm/swappiness to zero.
+<http://www.openldap.org/lists/openldap-technical/201503/msg00077.html>
+lmdb total relay on os memory map
+
+
 # login loop
 ~/.Xauthority permission denied
 

@@ -22,6 +22,7 @@ curl -L for relocation -v for verbose -O for save with url's base name
 less -s turn off line wrap
 grep -A 3 -B 2
 grep -nr        show grep line number
+grep -o for only match -h for hide filename
 *apropos*       search man
 *whatis*        one line summary
 *tree --du -L 2*
