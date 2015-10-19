@@ -1,3 +1,4 @@
+#!/bin/bash
 killall sslocal
 dir=$(dirname $0)
 cd $dir
