@@ -9,4 +9,5 @@
     tabLength: 4
     showInvisibles: true
     showIndentGuide: true
+    fontFamily: "Droid Sans Mono, Droid Sans Fallback"
   minimap: {}
