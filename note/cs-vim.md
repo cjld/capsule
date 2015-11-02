@@ -13,3 +13,8 @@ q[1234] : record to 1234
 :cn
 :cp : to next quick fix
 :copen : open quickfix
+
+# paste mode
+:set paste # into paste mode
+:set nopaste
+

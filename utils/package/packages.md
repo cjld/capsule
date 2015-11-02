@@ -3,10 +3,8 @@ vim
 xclip
 autojump
 tree
-dconf-editor
 moreutils
 tsocks
 sshfs
-zsh
 tmux
 inotyfy-tool

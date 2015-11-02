@@ -56,9 +56,9 @@ plugins=(cp git colored-man extract web-search autojump catimg)
 
 export PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games"
 # export MANPATH="/usr/local/man:$MANPATH"
-export PATH="/home/cjld/app/mips_toolchain/bin:$PATH"
 
 source $ZSH/oh-my-zsh.sh
+source $HOME/utils/misc/tmux.bash
 
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
