@@ -1,0 +1,8 @@
+{
+    "gnome-terminal": ["/org/gnome/terminal/legacy/profiles:/"],
+    "unity": ["/com/canonical/unity/devices/",
+        "/com/canonical/unity/launcher/",
+        "/org/gnome/desktop/wm/preferences/",
+        "/org/gnome/desktop/interface/",
+        "/org/compiz/profiles/unity/plugins/unityshell/"]
+}
