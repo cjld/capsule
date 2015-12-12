@@ -10,4 +10,7 @@
     showInvisibles: true
     showIndentGuide: true
     fontFamily: "Droid Sans Mono, Droid Sans Fallback"
+    softWrap: true
   minimap: {}
+  "tree-view":
+    hideVcsIgnoredFiles: true

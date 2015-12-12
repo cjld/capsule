@@ -1,3 +1,7 @@
+# optimize
+/proc/sys/vm/swappiness
+numa for numa access
+
 # stat
 vmstat
 dstat
