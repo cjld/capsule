@@ -48,6 +48,8 @@ baobab          for disk usage anali
 xgamma
 xrandr `xrandr --output LVDS-0 --brightness 1`
 xbacklight
+xinput test-xi2 --root : dump xinput event
+<http://unix.stackexchange.com/questions/146287/monitoring-events-keyboard-mouse-in-x>
 
 # boot
 kernel param : verbose debug  single(for single mode)
