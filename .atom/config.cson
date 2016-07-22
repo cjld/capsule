@@ -11,6 +11,7 @@
     showIndentGuide: true
     fontFamily: "Droid Sans Mono, Droid Sans Fallback"
     softWrap: true
+    fontSize: 11
   minimap: {}
   "tree-view":
     hideVcsIgnoredFiles: true

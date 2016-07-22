@@ -3,7 +3,7 @@ killall sslocal
 dir=$(dirname $0)
 cd $dir
 export PATH="/usr/local/bin:"$PATH
-sudo rm nohup.out
+rm nohup.out
 set -e
 
 function connect {

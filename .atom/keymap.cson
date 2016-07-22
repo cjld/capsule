@@ -23,3 +23,15 @@
 # This file uses CoffeeScript Object Notation (CSON).
 # If you are unfamiliar with CSON, you can read more about it here:
 # https://github.com/bevry/cson#what-is-cson
+
+'body':
+    'ctrl-q': 'unset!'
+    'ctrl-q down': 'pane:split-down'
+    'ctrl-q up': 'pane:split-up'
+    'ctrl-q right': 'pane:split-right'
+    'ctrl-q left': 'pane:split-left'
+    'ctrl-q ctrl-p': 'window:focus-previous-pane'
+    'ctrl-q ctrl-left': 'window:focus-pane-on-left'
+    'ctrl-q ctrl-right': 'window:focus-pane-on-right'
+    'ctrl-q ctrl-up': 'window:focus-pane-above'
+    'ctrl-q ctrl-down': 'window:focus-pane-below'

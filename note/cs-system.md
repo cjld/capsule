@@ -35,6 +35,8 @@ grep -o for only match -h for hide filename
 *sed -i*        sed the file
 *sed 's///p'*   sed print match
 *man -k*        search whole man pages
+tar cvzf MyImages-14-09-12.tar.gz /home/MyImages  create tgz file
+tar -xvf public_html-14-09-12.tar -C /home/public_html/videos/  tar extract file
 
 # mantain
 baobab          for disk usage anali
