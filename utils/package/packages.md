@@ -7,4 +7,4 @@ moreutils
 tsocks
 sshfs
 tmux
-inotyfy-tools
+inotify-tools
