@@ -8,3 +8,5 @@ tsocks
 sshfs
 tmux
 inotify-tools
+shadowsocks
+openvpn

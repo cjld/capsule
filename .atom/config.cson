@@ -1,17 +1,20 @@
 "*":
-  "exception-reporting":
-    userId: "4771a6a3-3fb1-f1e6-e659-92ca8e2b00dc"
-  welcome:
-    showOnStartup: false
+  "activate-power-mode":
+    particles:
+      spawnCount: {}
+    screenShake: {}
   core: {}
   editor:
-    invisibles: {}
-    tabLength: 4
-    showInvisibles: true
-    showIndentGuide: true
-    fontFamily: "Droid Sans Mono, Droid Sans Fallback"
-    softWrap: true
     fontSize: 11
+    invisibles: {}
+    showIndentGuide: true
+    showInvisibles: true
+    softWrap: true
+    tabLength: 4
+  "exception-reporting":
+    userId: "4771a6a3-3fb1-f1e6-e659-92ca8e2b00dc"
   minimap: {}
   "tree-view":
     hideVcsIgnoredFiles: true
+  welcome:
+    showOnStartup: false

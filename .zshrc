@@ -105,7 +105,7 @@ compinit
 
 # Completion caching
 zstyle ':completion::complete:*' use-cache on
-zstyle ':completion::complete:*' cache-path .zcache
+zstyle ':completion::complete:*' cache-path ~/.zsh/cache
 #zstyle ':completion:*:cd:*' ignore-parents parent pwd
 
 #Completion Options
