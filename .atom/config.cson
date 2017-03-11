@@ -14,7 +14,16 @@
     tabLength: 4
   "exception-reporting":
     userId: "4771a6a3-3fb1-f1e6-e659-92ca8e2b00dc"
-  minimap: {}
+  minimap:
+    plugins:
+      bookmarks: true
+      bookmarksDecorationsZIndex: 0
+      cursorline: true
+      cursorlineDecorationsZIndex: 0
+      "find-and-replace": true
+      "find-and-replaceDecorationsZIndex": 0
+      "git-diff": true
+      "git-diffDecorationsZIndex": 0
   "tree-view":
     hideVcsIgnoredFiles: true
   welcome:

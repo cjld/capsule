@@ -6,3 +6,5 @@ ctrl+alt+.: close code tab
 Alt+\: toggle tree view
 auto indent
 
+
+key binding resolver ctrl+.
