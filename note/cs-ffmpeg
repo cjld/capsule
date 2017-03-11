@@ -1,0 +1,1 @@
+ffprobe -show_format file
