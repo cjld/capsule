@@ -8,3 +8,4 @@ auto indent
 
 
 key binding resolver ctrl+.
+move to next diff alt-g arrow

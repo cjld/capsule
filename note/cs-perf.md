@@ -24,3 +24,5 @@ perf stat -B dd if=/dev/zero of=/dev/null count=1000000
 <http://stackoverflow.com/questions/22165299/what-are-stalled-cycles-frontend-and-stalled-cycles-backend-in-perf-stat-resul>
 
 
+-fomit-frame-pointer
+http://stackoverflow.com/questions/27742462/understanding-linux-perf-report-output
