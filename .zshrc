@@ -156,3 +156,4 @@ alias catall='for a in *; do echo $a;cat $a;echo "\n"; done'
 alias xopen='xdg-open'
 
 export NODE_PATH=/usr/lib/node_modules
+export LD_LIBRARY_PATH=/usr/local/lib

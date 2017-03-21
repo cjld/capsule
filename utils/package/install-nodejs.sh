@@ -5,4 +5,4 @@ sudo apt-get install nodejs
 # new nodejs version contain npm
 sudo npm install -g livescript
 sudo npm install -g gulp
-sudo npm install -g jade
+sudo npm install -g jade nodemon http-server bower
