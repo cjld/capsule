@@ -1,3 +1,4 @@
+# https://github.com/pypa/setuptools/issues/937
 sudo apt-get install python-pip python-dev -y
 sudo pip install "ipython[notebook]" jupyter markupsafe jsonschema zmq
 

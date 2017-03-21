@@ -1,4 +1,5 @@
 #!/bin/bash
+set -x
 killall sslocal
 dir=$(dirname $0)
 cd $dir
@@ -23,7 +24,7 @@ function try_connect {
     fi
 }
 
-list=(config_v6.json config_v4.json)
+list="config_v6.json config_v4.json"
 
 for config in $list; do
     try_connect $config
