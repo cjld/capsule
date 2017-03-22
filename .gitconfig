@@ -6,3 +6,5 @@
 	fileMode = true
 [push]
 	default = simple
+[receive]
+	denyCurrentBranch = updateInstead
