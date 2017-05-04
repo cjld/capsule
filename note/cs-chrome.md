@@ -10,3 +10,6 @@
 # web utils
 ## coca
 *   [UCREL CLAWS7 Tagset](http://ucrel.lancs.ac.uk/claws7tags.html)
+
+#cache setting
+chrome://net-internals/#httpCache
