@@ -7,7 +7,7 @@
   core:
     telemetryConsent: "limited"
   editor:
-    fontSize: 11
+    fontSize: 10
     invisibles: {}
     showIndentGuide: true
     showInvisibles: true
@@ -30,3 +30,6 @@
     hideVcsIgnoredFiles: true
   welcome:
     showOnStartup: false
+".plain.text":
+  editor:
+    tabLength: 4
