@@ -29,3 +29,7 @@ J = F^2  = B^3^2   = A^^3^2
 
 # git list file
 git ls-tree --full-tree -r HEAD 
+
+# How to see the changes in a commit?
+git diff commit^ commit
+git show commit

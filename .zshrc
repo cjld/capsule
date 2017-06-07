@@ -50,7 +50,7 @@ export HISTSIZE=""
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(cp git colored-man extract web-search autojump catimg)
+plugins=(cp git colored-man-pages extract web-search autojump catimg)
 
 # User configuration
 
@@ -105,7 +105,7 @@ compinit
 
 # Completion caching
 zstyle ':completion::complete:*' use-cache on
-zstyle ':completion::complete:*' cache-path .zcache
+zstyle ':completion::complete:*' cache-path ~/.zsh/cache
 #zstyle ':completion:*:cd:*' ignore-parents parent pwd
 
 #Completion Options
@@ -158,3 +158,5 @@ alias xopen='xdg-open'
 compress () {
     tar -zcvf $1.tgz $1
 }
+export NODE_PATH=/usr/lib/node_modules
+export LD_LIBRARY_PATH=/usr/local/lib

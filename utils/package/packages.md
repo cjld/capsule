@@ -7,4 +7,6 @@ moreutils
 tsocks
 sshfs
 tmux
-inotyfy-tool
+inotify-tools
+shadowsocks
+openvpn

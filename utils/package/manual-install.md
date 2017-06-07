@@ -1,0 +1,3 @@
+chrome
+sogou-pinyin
+atom

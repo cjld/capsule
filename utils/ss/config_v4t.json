@@ -1,7 +1,7 @@
 {
    "server":"104.236.186.21",
    "server_port":8087,
-   "local_address":"0.0.0.0",
+   "local_address":"127.0.0.1",
    "local_port":8123,
    "password":"5414.5drdps",
    "timeout":600,

@@ -8,3 +8,7 @@ xhost +si:localuser:[username]      add a user to xhost
 $HOME/.xsessionrc
 
 see more in lightdm-session
+
+# How to crop a portion of the screen in the Clipboard?
+
+Press Shift + Prt Scr.

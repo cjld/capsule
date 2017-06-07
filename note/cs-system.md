@@ -1,3 +1,7 @@
+# optimize
+/proc/sys/vm/swappiness
+numa for numa access
+
 # stat
 vmstat
 dstat
@@ -32,6 +36,8 @@ grep -o for only match -h for hide filename
 *sed -i*        sed the file
 *sed 's///p'*   sed print match
 *man -k*        search whole man pages
+tar cvzf MyImages-14-09-12.tar.gz /home/MyImages  create tgz file
+tar -xvf public_html-14-09-12.tar -C /home/public_html/videos/  tar extract file
 
 # mantain
 baobab          for disk usage anali
@@ -45,6 +51,8 @@ baobab          for disk usage anali
 xgamma
 xrandr `xrandr --output LVDS-0 --brightness 1`
 xbacklight
+xinput test-xi2 --root : dump xinput event
+<http://unix.stackexchange.com/questions/146287/monitoring-events-keyboard-mouse-in-x>
 
 # boot
 kernel param : verbose debug  single(for single mode)
