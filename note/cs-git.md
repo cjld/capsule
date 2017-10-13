@@ -1,3 +1,5 @@
+# git log show spec lines
+git log  -L 1,20:multilevel.cpp
 # git-dir and worktree
 git --git-dir=xxx --work-tre=xxx
 # git rm index
