@@ -11,6 +11,7 @@ iostat      from sysstat package
 /etc/sysctl.conf
 sysctl -p
 dmesg -wH           show kernel log in real time
+dmidecode       get system info
 
 # GUI
 dconf dump to see setting
