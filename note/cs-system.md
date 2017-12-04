@@ -18,6 +18,7 @@ dconf dump to see setting
 xdg-open        open file with type
 
 # tool
+tar -zcvf aaa.tgz dirname
 htop   press Ht      t for tree view, H show threads
 ps -eLf         ps show threads
 strings         find string in binary
