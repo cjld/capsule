@@ -7,4 +7,4 @@
 [push]
 	default = simple
 [receive]
-	denyCurrentBranch = updateInstead
+	denycurrentbranch = updateInstead

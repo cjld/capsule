@@ -94,6 +94,7 @@ function help {
     bash -c "help $1"
 }
 alias gcn="git commit -a -m 'nothing to say'"
+alias mypy="~/utils/misc/mypy.py"
 
 
 setopt AUTO_LIST
@@ -155,5 +156,10 @@ export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quo
 alias catall='for a in *; do echo $a;cat $a;echo "\n"; done'
 alias xopen='xdg-open'
 
+compress () {
+    tar -zcvf $1.tgz $1
+}
 export NODE_PATH=/usr/lib/node_modules
 export LD_LIBRARY_PATH=/usr/local/lib
+
+eval $(thefuck --alias)
