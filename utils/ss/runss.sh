@@ -17,7 +17,7 @@ function try_connect {
     if echo $ip | grep :; then
         ping=ping6
     fi
-    if $ping -c 1 -W 1 $ip; then
+    if $ping -c 1 -W 5 $ip; then
         echo "Using $1"
         connect $1
         exit
