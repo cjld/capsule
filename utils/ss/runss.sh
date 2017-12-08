@@ -24,11 +24,11 @@ function try_connect {
     fi
 }
 
-list="config_v6.json config_v4.json"
+list=(config_v6.json config_v4.json)
 
-for config in $list; do
+for config in ${list[@]}; do
     try_connect $config
 done
 
 echo "both connect failed, using default"
-connect ${list[1]}
+connect ${list[2]}

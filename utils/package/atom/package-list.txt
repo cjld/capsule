@@ -1,9 +1,8 @@
-activate-power-mode@0.8.1
-cursor-history@0.7.0
+activate-power-mode@2.6.0
+cursor-history@0.12.0
 language-livescript@0.0.3
-minimap@4.25.7
+minimap@4.29.7
 minimap-cursorline@0.2.0
 minimap-find-and-replace@4.5.2
 minimap-git-diff@4.3.1
-
 
