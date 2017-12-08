@@ -5,4 +5,6 @@ minimap@4.29.7
 minimap-cursorline@0.2.0
 minimap-find-and-replace@4.5.2
 minimap-git-diff@4.3.1
+minimap-split-diff@0.3.7
+split-diff@1.5.1
 
