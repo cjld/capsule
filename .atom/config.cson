@@ -26,6 +26,8 @@
       "find-and-replaceDecorationsZIndex": 0
       "git-diff": true
       "git-diffDecorationsZIndex": 0
+      "split-diff": true
+      "split-diffDecorationsZIndex": 0
   "split-diff":
     diffWords: true
     ignoreWhitespace: true
