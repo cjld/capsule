@@ -11,6 +11,7 @@ iostat      from sysstat package
 /etc/sysctl.conf
 sysctl -p
 dmesg -wH           show kernel log in real time
+dmidecode       get system info
 
 # GUI
 dconf dump to see setting
@@ -35,6 +36,8 @@ grep -o for only match -h for hide filename
 *file*          check file type
 *sed -i*        sed the file
 *sed 's///p'*   sed print match
+sed -n '100,200p' filename
+    output 100~200 lines of filename
 *man -k*        search whole man pages
 tar cvzf MyImages-14-09-12.tar.gz /home/MyImages  create tgz file
 tar -xvf public_html-14-09-12.tar -C /home/public_html/videos/  tar extract file

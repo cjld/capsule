@@ -17,18 +17,18 @@ function try_connect {
     if echo $ip | grep :; then
         ping=ping6
     fi
-    if $ping -c 1 -W 1 $ip; then
+    if $ping -c 1 -W 5 $ip; then
         echo "Using $1"
         connect $1
         exit
     fi
 }
 
-list="config_v6.json config_v4.json"
+list=(config_v6.json config_v4.json)
 
-for config in $list; do
+for config in ${list[@]}; do
     try_connect $config
 done
 
 echo "both connect failed, using default"
-connect ${list[1]}
+connect ${list[2]}

@@ -94,6 +94,7 @@ function help {
     bash -c "help $1"
 }
 alias gcn="git commit -a -m 'nothing to say'"
+alias mypy="~/utils/misc/mypy.py"
 
 
 setopt AUTO_LIST
@@ -160,3 +161,5 @@ compress () {
 }
 export NODE_PATH=/usr/lib/node_modules
 export LD_LIBRARY_PATH=/usr/local/lib
+
+eval $(thefuck --alias)
