@@ -8,3 +8,7 @@ pl.axis('off')      # turn off axis
 # numpy 
 <https://stackoverflow.com/questions/2444923/unpacking-tuples-arrays-lists-as-indices-for-numpy-arrays/2444929#2444929?newreg=67b7c5120eaa4bd6917920104a738ac9>
 `A[tuple(idx)]` to unpack list index
+
+# gil_
+
+#python pool
