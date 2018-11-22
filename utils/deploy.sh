@@ -1,7 +1,7 @@
 # sh -x -c "$(curl -fsSL https://raw.githubusercontent.com/cjld/capsule/master/utils/deploy.sh)"
 set -e
 cd ~
-sudo apt-get install git
+sudo apt-get install git -y
 git clone --no-checkout https://github.com/cjld/capsule.git
 
 cd capsule
